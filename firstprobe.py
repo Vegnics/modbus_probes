@@ -13,3 +13,6 @@ StartTcpServer(context,address=("192.168.1.107",5020))
 while True:
     print("SERVER ACTIVE")
     sleep(5)
+#client = ModbusClient('localhost', port=5020)
+#client.connect()
+#client.read...
